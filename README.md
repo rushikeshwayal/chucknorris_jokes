@@ -38,3 +38,4 @@ Contributions are welcome! Feel free to fork the repository, make improvements, 
 
 - Chuck Norris Jokes API (https://api.chucknorris.io/jokes/random) for providing the endless source of laughter.
 - Created by Rushikesh Wayal.
+[Link to Chuck Norris Random Jokes](https://660eb78fddbbb7030514cdf1--chucknorris-random-jokes.netlify.app/)
