@@ -68,3 +68,6 @@ h3 {
   /* Adjusted font size for responsiveness */
   font-weight: 500;
 }
+p{
+  background: transparent;
+}

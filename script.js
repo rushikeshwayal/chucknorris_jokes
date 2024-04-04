@@ -11,8 +11,11 @@ function generateJoke(){
         if (this.readyState===4) { 
             if (this.status===200) {
                 // console.log(JSON.parse(this.responseText).value);
-                jokeEl.innerHTML=JSON.parse(this.responseText).value;
+                
+                let joke =JSON.parse(this.responseText).value;
 
+                joke = joke.replace(/Chuck Norris/gi, 'Rushikesh');
+                jokeEl.innerHTML = joke;
                 
             }
             else{
